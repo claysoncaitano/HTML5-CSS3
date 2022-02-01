@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Boiola';
+            src: url(fonts/Filxgirl.TTF) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        /*
+         Tipos de format()
+         - opentype (otf)
+         - truetype (ttf)
+         - embedded-opentype
+         - truetype-aat (Apple Advanced Typography)
+         - svg
+
+         ASPAS OBRIGATÓRIAS NO FORMAT MAS OPCIONAIS NA URL E NA FONT-FAMILY
+        */
+
+        body{
+            font-family: 'Boiola', Helvetica, sans-serif;
+            font-size: 1.5em;
+        }
+        h1{
+            font-family: 'Boiola', Times, serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ratione deserunt nemo corporis molestiae fugiat magnam architecto esse aliquid suscipit animi, eos assumenda magni nostrum maiores enim laboriosam eaque error.</p>
+</body>
+</html>

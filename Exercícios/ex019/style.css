@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/*
+ID em HTML vira # em CSS
+CLASS em HTML é . em CSS
+*/
+
+body{
+    background-color: #04E06D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #941001;
+}
+
+h1#principal{
+    text-align: center;
+    color: #941001;
+    background-color: #009447;
+}
+
+h2{
+    color: #E11904;
+}
+
+.basico{
+    color: green;
+}
+
+.intermediario{
+    color: yellow;
+}
+
+.avancado{
+    color: red;
+}
+
+.destacado{
+    font-weight: lighter;
+}
