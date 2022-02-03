@@ -1,34 +1,95 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Sriracha', cursive;
 }
 
 p{
-    font-size: 3vw;
+    font-size: 3.5vw;
+}
+
+article{
+    padding-top: 66px;
+    padding-bottom: 162px;
+    padding-left: 30px;
+    line-height: 7vw;
+}
+
+article.somb{
+    box-shadow: 0px 30px 30px -30px black;
+}
+
+div{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.397);
+    width: fit-content;
 }
 
 header{
     background-color: black;
     color: white;
     text-align: center;
+    padding: 46px 0px;
 }
 
-header h1{
-    font-size: 8vw;
+header span{
+    font-size: 7vw;
+    font-family: 'Passion One', cursive;
+    display: inline-block;
+}
+
+header span::first-letter{
+    font-size: 150%;
 }
 
 header p{
-    font-size: 1.5vw;
+    font-size: 1.2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header a{
     text-decoration: none;
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
 
 main#wpum{
     background-image: url("../imagens/background001.jpg");
+    background-attachment: fixed;
+    background-position: center right;
+    background-size: cover;
+}
+
+#prim{
+    background-color: white;
+}
+
+#ter{
+    background-color: white;
+}
+
+main#wpdois{
+    background-image: url("../imagens/background002.jpg");
+    background-attachment: fixed;
+    background-position: center right;
+    background-size: cover;
+}
+
+#qua{
+    background-color: white;
+}
+
+#sex{
+    background-color: white;
+}
+
+#set{
+    background-color: white;
 }
