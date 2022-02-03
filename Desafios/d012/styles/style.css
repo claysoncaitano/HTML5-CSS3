@@ -11,18 +11,23 @@
 }
 
 p{
-    font-size: 3.5vw;
+    font-size: calc(1em + 3.5vw);
 }
 
 article{
     padding-top: 66px;
     padding-bottom: 162px;
     padding-left: 30px;
-    line-height: 7vw;
+    line-height: calc(1em + 8vw);
+}
+
+article.norm{
+    background-color: white;
 }
 
 article.somb{
     box-shadow: 0px 30px 30px -30px black;
+    background-color: white;
 }
 
 div{
@@ -39,7 +44,7 @@ header{
 }
 
 header span{
-    font-size: 7vw;
+    font-size: calc(1.5em + 7vw);
     font-family: 'Passion One', cursive;
     display: inline-block;
 }
@@ -49,7 +54,7 @@ header span::first-letter{
 }
 
 header p{
-    font-size: 1.2vw;
+    font-size: calc(10px + 1.2vw);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -67,14 +72,6 @@ main#wpum{
     background-size: cover;
 }
 
-#prim{
-    background-color: white;
-}
-
-#ter{
-    background-color: white;
-}
-
 main#wpdois{
     background-image: url("../imagens/background002.jpg");
     background-attachment: fixed;
@@ -82,14 +79,22 @@ main#wpdois{
     background-size: cover;
 }
 
-#qua{
-    background-color: white;
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: calc(10px + 1.5vw);
+    padding: 10px 0px;
 }
 
-#sex{
-    background-color: white;
+footer>a{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-#set{
-    background-color: white;
+footer>a:hover{
+    text-decoration: underline;
 }
